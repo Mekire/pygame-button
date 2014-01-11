@@ -22,7 +22,9 @@ ORANGE = (255,180,0)
 BUTTON_STYLE = {"hover_color" : BLUE,
                 "clicked_color" : GREEN,
                 "clicked_font_color" : BLACK,
-                "hover_font_color" : ORANGE}
+                "hover_font_color" : ORANGE,
+                "call_on_release" : False,
+                "hover_sound" : pg.mixer.Sound("blipshort1.wav")}
 
 
 class Control(object):
